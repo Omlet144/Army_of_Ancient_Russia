@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Army_of_Ancient_Russia.cpp" />
+    <ClCompile Include="C_Armaments.cpp" />
     <ClCompile Include="C_Army.cpp" />
     <ClCompile Include="C_Army_Cavalry.cpp" />
     <ClCompile Include="C_Army_Fleet.cpp" />
     <ClCompile Include="C_Army_Infantry.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C_Armaments.h" />
     <ClInclude Include="C_Army.h" />
     <ClInclude Include="C_Army_Cavalry.h" />
     <ClInclude Include="C_Army_Fleet.h" />
