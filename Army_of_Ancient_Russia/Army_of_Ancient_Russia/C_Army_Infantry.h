@@ -4,5 +4,6 @@
 class C_Army_Infantry :
     public C_Army
 {
+public:
     virtual void amount(int number_of_troops) override { std::cout << "Infantry =" << number_of_troops << "\n"; }
 };
