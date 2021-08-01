@@ -8,7 +8,7 @@ public:
 		out << "Number of troops: " << weapon.number_of_troops << "\n";
 		return out;
 	}
-	virtual void amount() = 0;
+	virtual void amount(int number_of_troops) = 0;
 protected:
 	C_Army()
 	{

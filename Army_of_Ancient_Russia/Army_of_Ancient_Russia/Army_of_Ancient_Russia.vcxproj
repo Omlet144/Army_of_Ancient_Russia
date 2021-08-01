@@ -141,9 +141,15 @@
   <ItemGroup>
     <ClCompile Include="Army_of_Ancient_Russia.cpp" />
     <ClCompile Include="C_Army.cpp" />
+    <ClCompile Include="C_Army_Cavalry.cpp" />
+    <ClCompile Include="C_Army_Fleet.cpp" />
+    <ClCompile Include="C_Army_Infantry.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Army.h" />
+    <ClInclude Include="C_Army_Cavalry.h" />
+    <ClInclude Include="C_Army_Fleet.h" />
+    <ClInclude Include="C_Army_Infantry.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
