@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="Army_of_Ancient_Russia.cpp" />
     <ClCompile Include="C_Armaments.cpp" />
+    <ClCompile Include="C_Armaments_Offensive.cpp" />
+    <ClCompile Include="C_Armaments_Protective.cpp" />
+    <ClCompile Include="C_Armaments_ThrowingMachines.cpp" />
     <ClCompile Include="C_Army.cpp" />
     <ClCompile Include="C_Army_Cavalry.cpp" />
     <ClCompile Include="C_Army_Fleet.cpp" />
@@ -148,6 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Armaments.h" />
+    <ClInclude Include="C_Armaments_Offensive.h" />
+    <ClInclude Include="C_Armaments_Protective.h" />
+    <ClInclude Include="C_Armaments_ThrowingMachines.h" />
     <ClInclude Include="C_Army.h" />
     <ClInclude Include="C_Army_Cavalry.h" />
     <ClInclude Include="C_Army_Fleet.h" />
