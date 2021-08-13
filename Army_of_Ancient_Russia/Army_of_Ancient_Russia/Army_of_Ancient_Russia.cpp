@@ -5,8 +5,12 @@
 #include"C_Armaments_Offensive.h"
 #include"C_Armaments_Protective.h"
 #include"C_Armaments_ThrowingMachines.h"
-
-
+using namespace army::inner_cavalry;
+using namespace army::inner_fleet;
+using namespace army::inner_infantry;
+using namespace armaments::inner_offensive;
+using namespace armaments::inner_protective;
+using namespace armaments::inner_throwingmachines;
 int main()
 {
 	C_Army_Cavalry cavalry;
